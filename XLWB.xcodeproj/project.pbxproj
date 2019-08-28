@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EA6B08BC23165DF600C46D54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08BB23165DF600C46D54 /* AppDelegate.swift */; };
-		EA6B08BE23165DF600C46D54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08BD23165DF600C46D54 /* ViewController.swift */; };
-		EA6B08C123165DF600C46D54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6B08BF23165DF600C46D54 /* Main.storyboard */; };
 		EA6B08C323165DF800C46D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6B08C223165DF800C46D54 /* Assets.xcassets */; };
-		EA6B08C623165DF800C46D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6B08C423165DF800C46D54 /* LaunchScreen.storyboard */; };
 		EA6B08D123165DF800C46D54 /* XLWBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08D023165DF800C46D54 /* XLWBTests.swift */; };
 		EA6B08DC23165DF800C46D54 /* XLWBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08DB23165DF800C46D54 /* XLWBUITests.swift */; };
+		EA6B08F2231672A100C46D54 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08F1231672A100C46D54 /* MainViewController.swift */; };
+		EA6B08F42316733800C46D54 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08F32316733800C46D54 /* HomeTableViewController.swift */; };
+		EA6B08F62316734B00C46D54 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08F52316734B00C46D54 /* DiscoverTableViewController.swift */; };
+		EA6B08F82316735A00C46D54 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08F72316735A00C46D54 /* MessageTableViewController.swift */; };
+		EA6B08FA2316736A00C46D54 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08F92316736A00C46D54 /* ProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +38,7 @@
 /* Begin PBXFileReference section */
 		EA6B08B823165DF600C46D54 /* XLWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6B08BB23165DF600C46D54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA6B08BD23165DF600C46D54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA6B08C023165DF600C46D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA6B08C223165DF800C46D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA6B08C523165DF800C46D54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA6B08C723165DF800C46D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA6B08CC23165DF800C46D54 /* XLWBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLWBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6B08D023165DF800C46D54 /* XLWBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLWBTests.swift; sourceTree = "<group>"; };
@@ -47,6 +46,11 @@
 		EA6B08D723165DF800C46D54 /* XLWBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLWBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6B08DB23165DF800C46D54 /* XLWBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLWBUITests.swift; sourceTree = "<group>"; };
 		EA6B08DD23165DF800C46D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA6B08F1231672A100C46D54 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EA6B08F32316733800C46D54 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		EA6B08F52316734B00C46D54 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		EA6B08F72316735A00C46D54 /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		EA6B08F92316736A00C46D54 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				EA6B08BB23165DF600C46D54 /* AppDelegate.swift */,
-				EA6B08BD23165DF600C46D54 /* ViewController.swift */,
-				EA6B08BF23165DF600C46D54 /* Main.storyboard */,
+				EA6B08E92316720000C46D54 /* Classes */,
 				EA6B08C223165DF800C46D54 /* Assets.xcassets */,
-				EA6B08C423165DF800C46D54 /* LaunchScreen.storyboard */,
 				EA6B08C723165DF800C46D54 /* Info.plist */,
 			);
 			path = XLWB;
@@ -123,6 +125,74 @@
 				EA6B08DD23165DF800C46D54 /* Info.plist */,
 			);
 			path = XLWBUITests;
+			sourceTree = "<group>";
+		};
+		EA6B08E92316720000C46D54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B08EA2316720000C46D54 /* Home */,
+				EA6B08EB2316720000C46D54 /* Tools */,
+				EA6B08EC2316720000C46D54 /* Discover */,
+				EA6B08ED2316720000C46D54 /* Message */,
+				EA6B08EE2316720000C46D54 /* Common */,
+				EA6B08EF2316720000C46D54 /* Profile */,
+				EA6B08F02316720000C46D54 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EA6B08EA2316720000C46D54 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B08F32316733800C46D54 /* HomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EA6B08EB2316720000C46D54 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EA6B08EC2316720000C46D54 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B08F52316734B00C46D54 /* DiscoverTableViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		EA6B08ED2316720000C46D54 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B08F72316735A00C46D54 /* MessageTableViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		EA6B08EE2316720000C46D54 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EA6B08EF2316720000C46D54 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B08F92316736A00C46D54 /* ProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EA6B08F02316720000C46D54 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B08F1231672A100C46D54 /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA6B08C623165DF800C46D54 /* LaunchScreen.storyboard in Resources */,
 				EA6B08C323165DF800C46D54 /* Assets.xcassets in Resources */,
-				EA6B08C123165DF600C46D54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA6B08BE23165DF600C46D54 /* ViewController.swift in Sources */,
+				EA6B08FA2316736A00C46D54 /* ProfileTableViewController.swift in Sources */,
+				EA6B08F42316733800C46D54 /* HomeTableViewController.swift in Sources */,
+				EA6B08F2231672A100C46D54 /* MainViewController.swift in Sources */,
+				EA6B08F62316734B00C46D54 /* DiscoverTableViewController.swift in Sources */,
+				EA6B08F82316735A00C46D54 /* MessageTableViewController.swift in Sources */,
 				EA6B08BC23165DF600C46D54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,25 +363,6 @@
 			targetProxy = EA6B08D823165DF800C46D54 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EA6B08BF23165DF600C46D54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA6B08C023165DF600C46D54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EA6B08C423165DF800C46D54 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA6B08C523165DF800C46D54 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EA6B08DE23165DF800C46D54 /* Debug */ = {
@@ -432,7 +485,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4Q5K659QG;
 				INFOPLIST_FILE = XLWB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +495,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.youngtown.XLWB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,7 +505,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4Q5K659QG;
 				INFOPLIST_FILE = XLWB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +515,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.youngtown.XLWB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
