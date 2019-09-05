@@ -1,0 +1,6 @@
+framework module Pods_XLWBTests {
+  umbrella header "Pods-XLWBTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
