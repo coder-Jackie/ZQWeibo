@@ -8,6 +8,13 @@
 
 import UIKit
 
+import AFNetworking
+import SVProgressHUD
+
+
+let reuseIdentifierID = "ReuseIdentifier"
+
+
 class HomeTableViewController: BaseTableViewController {
 
     override func viewDidLoad() {
@@ -23,6 +30,9 @@ class HomeTableViewController: BaseTableViewController {
         
         // 2.初始化导航条
         setupNav()
+        
+        
+        tableView.register(StatusTableViewCell.self, forCellReuseIdentifier: reuseIdentifierID)
         
     }
     
@@ -44,6 +54,16 @@ class HomeTableViewController: BaseTableViewController {
     
     @objc func titleBtnBtnclick(btn:TitleButton) {
         btn.isSelected = !btn.isSelected
+        
+        // 弹出弹窗
+        let sb = UIStoryboard.init(name: "PopoverViewController", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        
+        vc?.transitioningDelegate = self
+        vc?.modalTransitionStyle = UIModalTransitionStyle.partialCurl
+        
+        present(vc!, animated: true, completion: nil)
+
     }
     
     @objc func leftBtnclick() {
@@ -52,6 +72,35 @@ class HomeTableViewController: BaseTableViewController {
     
     @objc func rightBtnclick() {
         print(#function)
+    
+        let sb = UIStoryboard.init(name: "QRCodeViewController", bundle: nil)
+        let vc = sb.instantiateInitialViewController()
+        present(vc!, animated: true, completion: nil)
+        
     }
     
+}
+
+
+extension HomeTableViewController {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifierID, for: indexPath) as! StatusTableViewCell
+        cell.status = Status(dict: ["text": "你好啊"])
+        return cell
+        
+    }
+}
+ 
+
+extension HomeTableViewController : UIViewControllerTransitioningDelegate {
+
+    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController?
+    {
+        return PopoverPresentationController.init(presentedViewController: presented, presenting: presenting)
+    }
 }

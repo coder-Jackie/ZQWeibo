@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D5CA3B7C705AE4DB7F8C16D /* Pods_XLWBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36D01137BB1F7496DEA3500 /* Pods_XLWBUITests.framework */; };
 		514A1F92F863ED6FC53E3B9B /* Pods_XLWB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643132514CF41D618408FD14 /* Pods_XLWB.framework */; };
-		5D81B3284097D1326322B9E4 /* Pods_XLWBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53820AE9E71C5CAD48D29F65 /* Pods_XLWBTests.framework */; };
 		EA561AFF231922E800B6E9BC /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA561AFE231922E800B6E9BC /* BaseTableViewController.swift */; };
 		EA561B012319289900B6E9BC /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA561B002319289900B6E9BC /* VisitorView.swift */; };
 		EA561B03231F676F00B6E9BC /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA561B02231F676F00B6E9BC /* NullViewController.swift */; };
 		EA561B052320A81000B6E9BC /* UIBarButtonItem+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA561B042320A81000B6E9BC /* UIBarButtonItem+Category.swift */; };
 		EA561B072320AE2000B6E9BC /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA561B062320AE2000B6E9BC /* TitleButton.swift */; };
+		EA561B0C2320F0CB00B6E9BC /* PopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA561B0B2320F0CB00B6E9BC /* PopoverViewController.storyboard */; };
+		EA561B0E2321F07E00B6E9BC /* PopoverPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA561B0D2321F07E00B6E9BC /* PopoverPresentationController.swift */; };
+		EA561B112322008800B6E9BC /* QRCodeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA561B102322008800B6E9BC /* QRCodeViewController.storyboard */; };
+		EA561B132322079800B6E9BC /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA561B122322079800B6E9BC /* QRCodeViewController.swift */; };
+		EA64FD40233C5E4300282181 /* NewfeatureCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64FD3F233C5E4300282181 /* NewfeatureCollectionViewController.swift */; };
+		EA64FD42233E120F00282181 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64FD41233E120F00282181 /* Status.swift */; };
+		EA64FD442340783800282181 /* StatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA64FD432340783800282181 /* StatusTableViewCell.swift */; };
 		EA6B08BC23165DF600C46D54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08BB23165DF600C46D54 /* AppDelegate.swift */; };
 		EA6B08C323165DF800C46D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6B08C223165DF800C46D54 /* Assets.xcassets */; };
 		EA6B08D123165DF800C46D54 /* XLWBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B08D023165DF800C46D54 /* XLWBTests.swift */; };
@@ -44,20 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C713AC0FBE698BB217DB226 /* Pods-XLWBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLWBTests.debug.xcconfig"; path = "Target Support Files/Pods-XLWBTests/Pods-XLWBTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3B07ACFFA91C5CDA242ABDA7 /* Pods-XLWBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLWBTests.release.xcconfig"; path = "Target Support Files/Pods-XLWBTests/Pods-XLWBTests.release.xcconfig"; sourceTree = "<group>"; };
-		53820AE9E71C5CAD48D29F65 /* Pods_XLWBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLWBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		643132514CF41D618408FD14 /* Pods_XLWB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLWB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C73EE3A150039531362BA6D /* Pods-XLWB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLWB.release.xcconfig"; path = "Target Support Files/Pods-XLWB/Pods-XLWB.release.xcconfig"; sourceTree = "<group>"; };
 		83301192428851E842CCEA8A /* Pods-XLWB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLWB.debug.xcconfig"; path = "Target Support Files/Pods-XLWB/Pods-XLWB.debug.xcconfig"; sourceTree = "<group>"; };
-		D3034A825780CB42788118A9 /* Pods-XLWBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLWBUITests.release.xcconfig"; path = "Target Support Files/Pods-XLWBUITests/Pods-XLWBUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D36D01137BB1F7496DEA3500 /* Pods_XLWBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLWBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2014FFEF0625B213BC9F26D /* Pods-XLWBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLWBUITests.debug.xcconfig"; path = "Target Support Files/Pods-XLWBUITests/Pods-XLWBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA561AFE231922E800B6E9BC /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		EA561B002319289900B6E9BC /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		EA561B02231F676F00B6E9BC /* NullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
 		EA561B042320A81000B6E9BC /* UIBarButtonItem+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Category.swift"; sourceTree = "<group>"; };
 		EA561B062320AE2000B6E9BC /* TitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
+		EA561B0B2320F0CB00B6E9BC /* PopoverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopoverViewController.storyboard; sourceTree = "<group>"; };
+		EA561B0D2321F07E00B6E9BC /* PopoverPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverPresentationController.swift; sourceTree = "<group>"; };
+		EA561B102322008800B6E9BC /* QRCodeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QRCodeViewController.storyboard; sourceTree = "<group>"; };
+		EA561B122322079800B6E9BC /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		EA64FD3F233C5E4300282181 /* NewfeatureCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewfeatureCollectionViewController.swift; sourceTree = "<group>"; };
+		EA64FD41233E120F00282181 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		EA64FD432340783800282181 /* StatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTableViewCell.swift; sourceTree = "<group>"; };
 		EA6B08B823165DF600C46D54 /* XLWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6B08BB23165DF600C46D54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA6B08C223165DF800C46D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D81B3284097D1326322B9E4 /* Pods_XLWBTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D5CA3B7C705AE4DB7F8C16D /* Pods_XLWBUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,12 +112,34 @@
 			children = (
 				83301192428851E842CCEA8A /* Pods-XLWB.debug.xcconfig */,
 				7C73EE3A150039531362BA6D /* Pods-XLWB.release.xcconfig */,
-				0C713AC0FBE698BB217DB226 /* Pods-XLWBTests.debug.xcconfig */,
-				3B07ACFFA91C5CDA242ABDA7 /* Pods-XLWBTests.release.xcconfig */,
-				E2014FFEF0625B213BC9F26D /* Pods-XLWBUITests.debug.xcconfig */,
-				D3034A825780CB42788118A9 /* Pods-XLWBUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA561B082320EF3B00B6E9BC /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				EA561B0B2320F0CB00B6E9BC /* PopoverViewController.storyboard */,
+				EA561B0D2321F07E00B6E9BC /* PopoverPresentationController.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		EA561B0F2322004700B6E9BC /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				EA561B102322008800B6E9BC /* QRCodeViewController.storyboard */,
+				EA561B122322079800B6E9BC /* QRCodeViewController.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		EA64FD3E233C5E1A00282181 /* Newfeature */ = {
+			isa = PBXGroup;
+			children = (
+				EA64FD3F233C5E4300282181 /* NewfeatureCollectionViewController.swift */,
+			);
+			path = Newfeature;
 			sourceTree = "<group>";
 		};
 		EA6B08AF23165DF600C46D54 = {
@@ -170,6 +196,7 @@
 		EA6B08E92316720000C46D54 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EA64FD3E233C5E1A00282181 /* Newfeature */,
 				EA6B08EB2316720000C46D54 /* Tools */,
 				EA6B08F02316720000C46D54 /* Main */,
 				EA6B08EA2316720000C46D54 /* Home */,
@@ -184,7 +211,11 @@
 		EA6B08EA2316720000C46D54 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				EA561B0F2322004700B6E9BC /* QRCode */,
+				EA561B082320EF3B00B6E9BC /* Popover */,
 				EA6B08F32316733800C46D54 /* HomeTableViewController.swift */,
+				EA64FD41233E120F00282181 /* Status.swift */,
+				EA64FD432340783800282181 /* StatusTableViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -244,8 +275,6 @@
 			isa = PBXGroup;
 			children = (
 				643132514CF41D618408FD14 /* Pods_XLWB.framework */,
-				53820AE9E71C5CAD48D29F65 /* Pods_XLWBTests.framework */,
-				D36D01137BB1F7496DEA3500 /* Pods_XLWBUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -276,7 +305,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA6B08E323165DF800C46D54 /* Build configuration list for PBXNativeTarget "XLWBTests" */;
 			buildPhases = (
-				A951DC5F8915C98C3CCDD5B5 /* [CP] Check Pods Manifest.lock */,
 				EA6B08C823165DF800C46D54 /* Sources */,
 				EA6B08C923165DF800C46D54 /* Frameworks */,
 				EA6B08CA23165DF800C46D54 /* Resources */,
@@ -295,7 +323,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA6B08E623165DF800C46D54 /* Build configuration list for PBXNativeTarget "XLWBUITests" */;
 			buildPhases = (
-				0A77CA048A02EA95CA2BB784 /* [CP] Check Pods Manifest.lock */,
 				EA6B08D323165DF800C46D54 /* Sources */,
 				EA6B08D423165DF800C46D54 /* Frameworks */,
 				EA6B08D523165DF800C46D54 /* Resources */,
@@ -358,7 +385,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA561B0C2320F0CB00B6E9BC /* PopoverViewController.storyboard in Resources */,
 				EA6B08C323165DF800C46D54 /* Assets.xcassets in Resources */,
+				EA561B112322008800B6E9BC /* QRCodeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,28 +408,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A77CA048A02EA95CA2BB784 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XLWBUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0CB3CAA7C78584C5702D9E18 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,28 +424,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-XLWB-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A951DC5F8915C98C3CCDD5B5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XLWBTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -471,12 +456,17 @@
 			files = (
 				EA6B08FA2316736A00C46D54 /* ProfileTableViewController.swift in Sources */,
 				EA6B08F42316733800C46D54 /* HomeTableViewController.swift in Sources */,
+				EA561B132322079800B6E9BC /* QRCodeViewController.swift in Sources */,
 				EA6B08F2231672A100C46D54 /* MainViewController.swift in Sources */,
 				EA561AFF231922E800B6E9BC /* BaseTableViewController.swift in Sources */,
 				EA561B072320AE2000B6E9BC /* TitleButton.swift in Sources */,
+				EA64FD40233C5E4300282181 /* NewfeatureCollectionViewController.swift in Sources */,
+				EA561B0E2321F07E00B6E9BC /* PopoverPresentationController.swift in Sources */,
 				EA561B03231F676F00B6E9BC /* NullViewController.swift in Sources */,
 				EA6B08F62316734B00C46D54 /* DiscoverTableViewController.swift in Sources */,
 				EA6B08F82316735A00C46D54 /* MessageTableViewController.swift in Sources */,
+				EA64FD442340783800282181 /* StatusTableViewCell.swift in Sources */,
+				EA64FD42233E120F00282181 /* Status.swift in Sources */,
 				EA6B08BC23165DF600C46D54 /* AppDelegate.swift in Sources */,
 				EA561B052320A81000B6E9BC /* UIBarButtonItem+Category.swift in Sources */,
 				EA561B012319289900B6E9BC /* VisitorView.swift in Sources */,
@@ -677,7 +667,6 @@
 		};
 		EA6B08E423165DF800C46D54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C713AC0FBE698BB217DB226 /* Pods-XLWBTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -698,7 +687,6 @@
 		};
 		EA6B08E523165DF800C46D54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B07ACFFA91C5CDA242ABDA7 /* Pods-XLWBTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -719,7 +707,6 @@
 		};
 		EA6B08E723165DF800C46D54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2014FFEF0625B213BC9F26D /* Pods-XLWBUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -739,7 +726,6 @@
 		};
 		EA6B08E823165DF800C46D54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3034A825780CB42788118A9 /* Pods-XLWBUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

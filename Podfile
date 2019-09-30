@@ -11,20 +11,12 @@ target 'XLWB' do
   use_frameworks!
 
   #pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
-  #pod 'Alamofire',  :git => 'https://github.com/Alamofire/Alamofire.git'
+#  pod 'Alamofire',  :git => 'https://github.com/Alamofire/Alamofire.git'
+  pod 'Alamofire'
   #pod 'MJRefresh'
   pod 'SnapKit'
-
-  # Pods for XLWB
-
-  target 'XLWBTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'XLWBUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'SVProgressHUD'
 
 end

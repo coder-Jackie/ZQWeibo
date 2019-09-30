@@ -23,15 +23,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow.init(frame: UIScreen.main.bounds)
         
         window?.rootViewController = MainViewController()
+//        window?.rootViewController = NewfeatureCollectionViewController()
         
         window?.makeKeyAndVisible()
         
+//        isNewupdate()
         
         return true
     }
-
     
-
+//    func defaultContoller() -> UIViewController {
+//
+//    }
+    
+    
+    func isNewupdate() -> Bool {
+        
+        let currentVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
+        let sandboxVersion = UserDefaults.standard.object(forKey: "CFBundleShortVersionString") as? String ?? ""
+        if currentVersion.compare(sandboxVersion) == ComparisonResult.orderedDescending {
+            print("有新版本了")
+            UserDefaults.standard.set(currentVersion, forKey: "CFBundleShortVersionString")
+            return true
+        }
+        print("没有新版本")
+        return false
+    }
+    
 
 }
 
